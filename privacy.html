@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="[org name] foundation is non-for-profit organisation, carrying out grassroot level interventions since 2016 under the Criminal Justice Fellowship Programme of Tata Institute of Social Sciences, Mumbai and registered as a Trust in 2019.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal | [org name] Foundation</title>
+    <link rel="icon" href="./logo/law-logo.jpeg">
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=Fira+Sans+Condensed&family=Over+the+Rainbow&family=Rubik:wght@500&family=Shrikhand&family=Sofia+Sans:wght@200;300&display=swap"
+        rel="stylesheet">
+
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<body>
+    <div class="header">
+        <nav class="nav-bar">
+            <div class="foundation-name">
+                <div class="foss-logo grid">
+                    <a href="./index.html"><img src="./logo/law-logo.jpeg" alt="Law Foundation"></a>
+                </div>
+
+                <div class="org-name grid">
+                    <a href="./index.html">
+                        <h1>[org name] FOUNDATION</h1>
+                    </a>
+                    <p>A Pathway to Justice</p>
+                </div>
+
+                <!-- Hamburger ********* -->
+                <div class="hamburgerLogo grid">
+                    <button onclick="myFunction()" id="hamburgerMenu">
+                        <i class="fa-sharp fa-solid fa-bars" id="hamburger"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <ul id="navigation">
+
+                    <li class="nav list-item" id="home"><a class="home-highlight" href="./index.html">HOME<i
+                                class="fa-sharp fa-solid fa-caret-down home-highlight" id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./about.html">About Us</a></li>
+                            <li><a class="links" href="./ourJourney.html">Our Journey</a></li>
+                            <li><a class="links" href="./ourTeam.html">Our Team</a></li>
+                            <li><a class="links" href="./legalStatus.html">Legal Status</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item" id="list-item"><a>INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./CLAP.html">CLAP</a></li>
+                            <li><a class="links" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                            <li><a class="links" href="./GenderJustice.html">Gender Justice</a></li>
+                            <li><a class="links" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item" id="list-item"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./pahel.html">PAHEL Fellowship</a></li>
+                            <li><a class="links" href="./communityAwareness.html">Community Awareness</a></li>
+                            <li><a class="links" href="./emergencySupport.html">Emergency Support</a></li>
+                            <li><a class="links" href="./homeVisit.html">Home Visit</a></li>
+                            <li><a class="links" href="./prisonVisit.html">PrisonVisit</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item" id="list-item"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./collaborationAndnetworking.html">Collaboration & Networking</a>
+                            </li>
+                            <li><a class="links" href="./partnership.html">Partnership</a></li>
+                            <li><a class="links" href="./indivisualSupport.html">Individual Support</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav list-item" id="list-item"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./internship.html">Internships</a></li>
+                            <li><a class="links" href="./vacancies.html">Vacancies</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav donate"><a href="./donate.html">DONATE NOW</a></li>
+                </ul>
+            </div>
+
+
+            <!-- ############## Second nav dropdownmenu navbar ################ -->
+            <ul id="navi" style="display: none;">
+                <li class="navi2" id="about-drop"><a href="./index.html">HOME<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./about.html">About Us</a></li>
+                        <li><a class="second-link" href="./ourJourney.html">Our Journey</a></li>
+                        <li><a class="second-link" href="./ourTeam.html">Our Team</a></li>
+                        <li><a class="second-link" href="./legalStatus.html">Legal Status</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./CLAP.html">CLAP</a></li>
+                        <li><a class="second-link" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                        <li><a class="second-link" href="./GenderJustice.html">Gender Justice</a></li>
+                        <li><a class="second-link" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                    </ul>
+                </li>
+                <li class="navi2" id="event-drop"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./pahel.html">PAHEL Fellowship</a></li>
+                        <li><a class="second-link" href="./communityAwareness.html">Community Awareness</a></li>
+                        <li><a class="second-link" href="./emergencySupport.html">Emergency Support</a></li>
+                        <li><a class="second-link" href="./homeVisit.html">Home Visit</a></li>
+                        <li><a class="second-link" href="./prisonVisit.html">Prison Visit</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./collaborationAndnetworking.html">Collaboration &
+                                Networking</a></li>
+                        <li><a class="second-link" href="./partnership.html">Partnership</a></li>
+                        <li><a class="second-link" href="./indivisualSupport.html">Individual Support</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./internship.html">Internships</a></li>
+                        <li><a class="second-link" href="./vacancies.html">Vacancies</a></li>
+                    </ul>
+                </li>
+
+                <li id="donation"><a href="./donate.html">DONATE NOW</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Privacy ***************** -->
+    <section class="privacy-main-container">
+        <div class="privacy-container">
+            <h1>PRIVACY STATEMENT</h1>
+            <p>----</p>
+            <div class="privacy">
+
+                <p>SECTION 1 - WHAT DO WE DO WITH YOUR INFORMATION?
+                </p>
+                <p>When you submit your personal information such as your name, address and email address on our website
+                    it
+                    is stored in the third-party App (Kobo Toolbox). The collected information is stored on their
+                    server.
+                </p>
+                <p>Email marketing (if applicable): With your permission, we may send you emails about our quarterly
+                    updates.</p>
+            </div>
+            <div class="privacy">
+                <p>SECTION 2 – CONSENT</p>
+                <p>How do you get my consent?</p>
+                <p>When you provide us with personal information to complete the process and click on submit, we imply
+                    that
+                    you consent to our collecting it and using it for that specific reason only.
+                </p>
+                <p>
+                    How do I withdraw my consent?
+                </p>
+                <p>If after you opt-in, you change your mind, you may withdraw your consent by contacting us at
+                    <a href="admin@[org name]foundation.org.in ">admin@[org name]foundation.org.in </a>
+                </p>
+            </div>
+            <div class="privacy">
+                <p>SECTION 3 - DISCLOSURE</p>
+                <p>
+                    We may disclose your personal information if we are required by law to do so or if you violate our
+                    Terms
+                    of Service.
+                </p>
+                <p>SECTION 4 - PAYMENT</p>
+                <p>We use Razorpay for processing payments. We/Razorpay do not store your card data on their servers.
+                    The
+                    data is encrypted through the Payment Card Industry Data Security Standard (PCI-DSS) when processing
+                    payment. Your purchase transaction data is only used as long as is necessary to complete your
+                    purchase
+                    transaction. After that is complete, your purchase transaction information is not saved.
+                </p>
+                <p>Our payment gateway adheres to the standards set by PCI-DSS as managed by the PCI Security Standards
+                    Council, which is a joint effort of brands like Visa, MasterCard, American Express and Discover.
+                </p>
+                <p>PCI-DSS requirements help ensure the secure handling of credit card information by our store and its
+                    service providers.
+                </p>
+                <p>For more insight, you may also want to read terms and conditions of razorpay on <a
+                        href=" https://razorpay.com"> https://razorpay.com</a>
+                </p>
+            </div>
+            <div class="privacy">
+                <p>SECTION 5 - THIRD-PARTY SERVICES</p>
+                <p>In general, the third-party providers used by us will only collect, use and disclose your information
+                    to
+                    the extent necessary to allow them to perform the services they provide to us.
+                </p>
+                <p>However, certain third-party service providers, such as payment gateways and other payment
+                    transaction
+                    processors, have their own privacy policies in respect to the information we are required to provide
+                    to
+                    them for your purchase-related transactions.
+                </p>
+                <p>
+                    For these providers, we recommend that you read their privacy policies so you can understand the
+                    manner
+                    in which your personal information will be handled by these providers.
+                </p>
+                <p>
+
+                    In particular, remember that certain providers may be located in or have facilities that are located
+                    a
+                    different jurisdiction than either you or us. So if you elect to proceed with a transaction that
+                    involves the services of a third-party service provider, then your information may become subject to
+                    the
+                    laws of the jurisdiction(s) in which that service provider or its facilities are located.
+                </p>
+                <p>Once you leave our organization’s website or are redirected to a third-party website or application,
+                    you
+                    are no longer governed by this Privacy Policy or our website’s Terms of Service.
+                </p>
+                <p>Links</p>
+                <p>When you click on links on our organization’s website, they may direct you away from our site. We are
+                    not
+                    responsible for the privacy practices of other sites and encourage you to read their privacy
+                    statements.
+                </p>
+            </div>
+            <div class="privacy">
+                <p>SECTION 6 - SECURITY
+                </p>
+                <p>To protect your personal information, we take reasonable precautions and follow industry best
+                    practices
+                    to make sure it is not inappropriately lost, misused, accessed, disclosed, altered or destroyed.
+                </p>
+            </div>
+            <div class="privacy">
+                <p>
+                    SECTION 7 - COOKIES
+                </p>
+                <p>We use cookies to maintain session of your user. It is not used to personally identify you on other
+                    websites.</p>
+            </div>
+            <div class="privacy">
+                <p>
+                    SECTION 8 - AGE OF CONSENT
+
+                </p>
+                <p>
+                    By using this site, you represent that you are at least the age of majority in your state or
+                    province of
+                    residence, or that you are the age of majority in your state or province of residence and you have
+                    given
+                    us your consent to allow any of your minor dependents to use this site.
+                </p>
+            </div>
+            <div class="privacy">
+                <p>
+                    SECTION 9 - CHANGES TO THIS PRIVACY POLICY
+                </p>
+                <p>
+                    We reserve the right to modify this privacy policy at any time, so please review it frequently.
+                    Changes
+                    and clarifications will take effect immediately upon their posting on the website. If we make
+                    material
+                    changes to this policy, we will notify you here that it has been updated, so that you are aware of
+                    what
+                    information we collect, how we use it, and under what circumstances, if any, we use and/or disclose
+                    it.
+                </p>
+                <p>If our organization is acquired or merged with another organization, your information may be
+                    transferred
+                    to the new owners so that we may continue to provide services to you.</p>
+            </div>
+            <div class="privacy">
+                <p>
+                    QUESTIONS AND CONTACT INFORMATION
+                </p>
+                <p>
+
+                    If you would like to: access, correct, amend or delete any personal information we have about you,
+                    register a complaint, or simply want more information contact our Privacy Compliance Officer at
+                    [___admin@[org name]foundation.org.in___]
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--  Media Resource ****************** -->
+    <section class="media-resource">
+        <div class=" media-container">
+            <h1>Media and Resource Center</h1>
+            <div class="media-links-container">
+                <div class="media-links">
+                    <ul>
+                        <li><a href="./blogs.html">Blog ></a></li>
+                        <li><a href="./annualReports.html">Annual Reports ></a></li>
+                        <li><a href="./storiesOfChanges.html">Stories of Changes ></a></li>
+                    </ul>
+                </div>
+                <div class="media-links">
+                    <ul>
+                        <li><a href="./publication.html">Publications ></a></li>
+                        <li><a href="./pressRelease.html">Press Release ></a></li>
+                        <li><a href="./gallery.html">Gallery ></a></li>
+
+                    </ul>
+                </div>
+                <div class="media-links">
+                    <!-- <ul>
+                        <li><a href="">Publications ></a></li>
+                        <li><a href="">Press Release ></a></li>
+                        <li><a href="">Print/Online Media ></a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ******************  footer ******************  -->
+    <footer>
+        <div class="footer">
+            <div class="footer-info">
+
+                <div class="footer-col">
+                    <h5 class="name">[Org name]</h5>
+                    <div class="footer-icon">
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i> location
+                            <br> location
+                        </p>
+                        <p><i class="fa-solid fa-square-phone"></i></i> [Office]number </p>
+                        <!-- <p id="email"><i class="fa-solid fa-envelope"></i> admin@lawfoundation.org.in</p> -->
+                        <p><i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+                                target="_blank" id="email">email</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h5 class="address">Follow Us </h5>
+                    <div class="footer-icon1">
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://mobile.twitter.com/" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <!-- <a href="www.lawfoundationpatna.org" target="_blank"><i class="fa-solid fa-globe"></i></a> -->
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <div class="footer-down">
+        <hr>
+        <div class="footer-down">
+            <p id="right">
+                ©2020 [org] All rights reserved.
+            </p>
+        </div>
+
+        <div class="editor">
+            <p>
+                <i>built with 🧡 by <a class="web-link-color"
+                        href="https://webuildr.framer.ai">We Buildr Wave
+                            </a> & Hosted Freely on <a class="web-link-color"
+                        href="https://github.com/Lily-Sneha/Law-Foundation">Github
+                        Pages</a>
+                </i>
+            </p>
+        </div>
+    </div>
+
+    <div class="footer-info-down">
+        <!-- JS link -->
+        <script src="index.js"> </script>
+
+        <!-- bootstrap JS link -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+            </script>
+    </div>
+</body>
+
+</html>

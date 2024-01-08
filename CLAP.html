@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="[org name] foundation is non-for-profit organisation, carrying out grassroot level interventions since 2016 under the Criminal Justice Fellowship Programme of Tata Institute of Social Sciences, Mumbai and registered as a Trust in 2019.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal | [org name] Foundation</title>
+    <link rel="icon" href="./logo/law-logo.jpeg">
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=Fira+Sans+Condensed&family=Over+the+Rainbow&family=Rubik:wght@500&family=Shrikhand&family=Sofia+Sans:wght@200;300&display=swap"
+        rel="stylesheet">
+
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<body>
+    <div class="header">
+        <nav class="nav-bar">
+            <div class="foundation-name">
+                <div class="foss-logo grid">
+                    <a href="./index.html"><img src="./logo/law-logo.jpeg" alt="Law Foundation"></a>
+                </div>
+
+                <div class="org-name grid">
+                    <a href="./index.html">
+                        <h1>[ORG NAME] FOUNDATION</h1>
+                    </a>
+                    <p>A Pathway to Justice</p>
+                </div>
+
+                <!-- Hamburger ********* -->
+                <div class="hamburgerLogo grid">
+                    <button onclick="myFunction()" id="hamburgerMenu">
+                        <i class="fa-sharp fa-solid fa-bars" id="hamburger"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <ul id="navigation">
+
+                    <li class="nav list-item" id="home"><a class="home-highlight" href="./index.html">HOME<i
+                                class="fa-sharp fa-solid fa-caret-down home-highlight" id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./about.html">About Us</a></li>
+                            <li><a class="links" href="./ourJourney.html">Our Journey</a></li>
+                            <li><a class="links" href="./ourTeam.html">Our Team</a></li>
+                            <li><a class="links" href="./legalStatus.html">Legal Status</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="">CLAP</a></li>
+                            <li><a class="links" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                            <li><a class="links" href="./GenderJustice.html">Gender Justice</a></li>
+                            <li><a class="links" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./pahel.html">PAHEL Fellowship</a></li>
+                            <li><a class="links" href="./communityAwareness.html">Community Awareness</a></li>
+                            <li><a class="links" href="./emergencySupport.html">Emergency Support</a></li>
+                            <li><a class="links" href="./homeVisit.html">Home Visit</a></li>
+                            <li><a class="links" href="./prisonVisit.html">Prison Visit</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./collaborationAndnetworking.html">Collaboration & Networking</a>
+                            </li>
+                            <li><a class="links" href="./partnership.html">Partnership</a></li>
+                            <li><a class="links" href="./indivisualSupport.html">Individual Support</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./internship.html">Internships</a></li>
+                            <li><a class="links" href="./vacancies.html">Vacancies</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav donate"><a href="./donate.html">DONATE NOW</a></li>
+                </ul>
+            </div>
+
+
+            <!-- ############## Second nav dropdownmenu navbar ################ -->
+            <ul id="navi" style="display: none;">
+                <li class="navi2" id="about-drop"><a href="./index.html">HOME<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./about.html">About Us</a></li>
+                        <li><a class="second-link" href="./ourJourney.html">Our Journey</a></li>
+                        <li><a class="second-link" href="./ourTeam.html">Our Team</a></li>
+                        <li><a class="second-link" href="./legalStatus.html">Legal Status</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="">CLAP</a></li>
+                        <li><a class="second-link" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                        <li><a class="second-link" href="./GenderJustice.html">Gender Justice</a></li>
+                        <li><a class="second-link" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./pahel.html">PAHEL Fellowship</a></li>
+                        <li><a class="second-link" href="./communityAwareness.html">Community Awareness</a></li>
+                        <li><a class="second-link" href="./emergencySupport.html">Emergency Support</a></li>
+                        <li><a class="second-link" href="./homeVisit.html">Home Visit</a></li>
+                        <li><a class="second-link" href="./prisonVisit.html">Prison Visit</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./collaborationAndnetworking.html">Collaboration &
+                                Networking</a></li>
+                        <li><a class="second-link" href="./partnership.html">Partnership</a></li>
+                        <li><a class="second-link" href="./indivisualSupport.html">Individual Support</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./internship.html">Internships</a></li>
+                        <li><a class="second-link" href="./vacancies.html">Vacancies</a></li>
+                    </ul>
+                </li>
+
+                <li id="donation"><a href="./donate.html">DONATE NOW</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <!-- CLAP ***************** -->
+    <section class="CLAP-container">
+        <div>
+            <h1 id="CLAP">
+                CLAP : Children Legal Aid & Protection</h1>
+                <p class="about-CLAP">[Organization Name] Legal Aid & Protection (CLAP) is an essential initiative undertaken by our
+                    organization, which is committed to serving the needs of children in conflict with the law and those
+                    requiring care and protection. The primary focus of the program is to facilitate access to socio-legal
+                    aid, fundamental right to education, reintegration, and rehabilitation of such children in society.
+                </p>
+                
+                <p class="about-CLAP">Children in conflict with the law are those who have been alleged to commit an act
+                    that is prohibited by
+                    law. These children are often vulnerable and face a multitude of challenges, including inadequate legal
+                    representation, stigma, and social exclusion. The CLAP program is designed to provide these children
+                    with access to socio-legal aid, which includes legal representation, counseling, and support services.
+                    This initiative is crucial in ensuring that these children receive fair and just treatment in the legal
+                    system and are not denied their fundamental rights.
+                </p>
+                
+                <p class="about-CLAP">The program also recognizes the importance of education in the lives of these
+                    children. Therefore, it aims to provide them with access to education and help them overcome barriers to
+                    education. The right to education is a fundamental right of every child, and the CLAP program ensures
+                    that this right is not denied to children in conflict with the law.
+                    Another important aspect of the CLAP program is reintegration and rehabilitation. Children in conflict
+                    with the law often face significant challenges in reintegrating into society. This initiative aims to
+                    provide them with the necessary support to reintegrate and lead a normal life. The program also provides
+                    rehabilitation services to children who have been victims of abuse or exploitation.
+                </p>
+                
+                <p class="about-CLAP">The CLAP program is an essential initiative undertaken by our
+                    organization to address the needs of children in conflict with the law and those requiring care and
+                    protection. It is a comprehensive program that provides access to socio-legal aid, education,
+                    reintegration, and rehabilitation services. The program is committed to ensuring that every child
+                    receives fair and just treatment in the legal system and is provided with the necessary support to lead
+                    a normal life.
+                </p>
+                
+        </div>
+    </section>
+
+    <!-- Children in Conflict with Law **************-->
+    <section class="Conflict-container">
+        <div class="Children-Conflict-text">
+            <h1>Children in Conflict with Law</h1>
+            <h2>(CICL remand as adult in prison)</h2>
+            <p>An exploratory study conducted in collaboration with [International Organization] & [Educational Institution] aimed to shed light on the
+                issue of Children in Conflict with Law (CICL) who were remanded in prisons as adults in Bihar,
+                India. The study revealed that several children who were below 18 years of age were sent to jail by
+                portraying them as adults, which is a gross violation of their rights.
+                The practice of sending children to jails with adult inmates exposes them to a range of risks and
+                dangers, including physical and sexual abuse, neglect, and exploitation. This situation is further
+                exacerbated by the lack of basic amenities and services in the prisons.
+            </p>
+            
+            <p>The study also underscores the importance of raising awareness among stakeholders, including law
+                enforcement agencies, the judiciary, civil society organizations, and the general public, about the
+                rights of CICL and the harmful consequences of sending them to jails with adult inmates.
+            </p>
+            
+            <p>In conclusion, the study conducted in collaboration with [International Organization] & [Educational Institution] has brought to light a
+                concerning issue of children in conflict with the law being remanded in prisons as adults in Bihar.
+                It is essential that immediate action is taken to protect the rights of these children and ensure
+                that they are treated in accordance with the law. This requires a concerted effort from all
+                stakeholders, including the government, civil society, and the general public.
+            </p>
+            
+        </div>
+        <!-- <div id="clap-img">
+                <img src="./photo/clap.jpg" alt=" Children in Conflict with Law">
+            </div> -->
+        <!-- </div> -->
+    </section>
+
+    <section class="CICL-story">
+        <div class="stories" id="Dharamraj">
+            <h1>CICL Story</h1>
+            <h4>Justice is delayed but not denied</h4>
+            <h5>(A Minor Child)</h5>
+            <p>
+                <span>Primary Information:</span> The director of the organization Mr. [Director Name] met him in [date]
+                during his first
+                prison visit. He was wearing a dark blue colored half pant and sky-blue half shirt, which is a school
+                uniform usually in [location]. He was loitering in the ground of the prison when his sight was caught holded
+                by [Director Name].
+            </p>
+            
+            <p>
+                [Person Name], a person who was in the [age] of his life where dreams of having a good life,
+                earning a good money, enjoying the adulthood start to peep through the eyes. [He/She] belonged to an extremely
+                backward class. [He/She] had [number] brothers and [number] sisters, [his/her] mother used to sell vegetables at [location] City
+                Railway Station and [he/she] used to assist [his/her] mother every day.
+            </p>
+            
+            <p>
+                <span>Case Background:</span> Somehow they were trying to cope-up with all their needs, but life
+                shattered for them
+                on [date] when their youngest [son/daughter] [Person Name] was sent to prison upon allegations of dacoity and
+                consumption of drugs. When [he/she] was arrested in one case [he/she] was made accused in another case of dacoity
+                too that occurred in the same area in the month of March where F.I.R was lodged against an unknown
+                person. [He/She] had no direct relation in both the cases. The overall punishment in all these cases summed up
+                to imprisonment of life. Surprisingly, all the accused in this case belonged to one caste i.e., [Caste]
+                belonging to [Category] category.
+            </p>
+            
+            <p>
+                <span>Legal Recourse:</span> [Person Name] grabbed attention of Mr. [Director Name]. In all the people [his/her] age was the
+                factor that
+                struck the eyes. [He/She] from nowhere appeared to be an adult who should be kept here in a place made for
+                adult prisoners. After having a conversation with the little [boy/girl], a home visit was conducted to [his/her]
+                place where [his/her] family and [his/her] elder brother told that [he/she] was not 20 years as stated by the police
+                instead [he/she] is just 13 and half years old on the alleged day of occurrence. Mr. [Director Name] then inquired
+                about documents such as birth certificate or school certificate to which the family looked clueless and
+                also helpless. Somehow [he/she] gathered information of the last class [he/she] attended if any in any school, to
+                which a positive response was received. Mr. [Director Name] reached to [his/her] school namely [School Name]
+                from where [he/she] explained the principal everything about the situation and asked him to issue
+                a certificate which could verify [his/her] age. The school issued the transfer certificate and [his/her] age was
+                verified in the court of law after which [he/she] was declared juvenile in the month of September and [his/her] case
+                was transferred to Juvenile Justice Board, [JJ Board Location]. In the JJ Board, an application was made for
+                granting [his/her] bail. The Principal of the school was bought before the court and he testified that [Person Name]
+                was a juvenile upon which [he/she] was granted bail.
+            </p>
+            
+            <p>
+                <span>Back to normal life:</span> [Person Name] was the student of class VIII when [he/she] gets into custody because
+                [he/she] was in the jail [his/her] name was struck off from school which resulted in discontinuation of [his/her]
+                studies. We helped in getting [his/her] admission and now [he/she] is studying and living [his/her] normal and happy life
+                with [his/her] parents and siblings.
+            </p>
+            
+            <p>
+                <span>Gap Analysis and Conclusion:</span> This case not only highlights the issues our criminal justice
+                system is filled with but also challenges people holding a very important place in the justice system.
+                The case from tip to toe is filled with gaps:
+                <ul id="[Person Name]-lists">
+                    <li>The first appearance of the [boy/girl] was enough to describe the age of the [boy/girl], yet the police ignored
+                        [his/her] age factor and mentioned [his/her] age as 20 years, ending the very purpose of JJ Act.
+                    </li>
+                    <li>The police were not capable enough to determine the age of the [boy/girl] but what happened to the
+                        Magistrate, had he too turned blind that he was not able to see that the [boy/girl] is below 18 and not 20.
+                    </li>
+                    <li>The sections imposed upon [him/her] were grave and very serious, if the school certificate was not
+                        produced [he/she] might have had to rot in jail for life.
+                    </li>
+                    <li>In the case where an F.I.R was lodged against an unknown person, the informant described the person
+                        as one in age group, having a strong body, in such case how can the police relate the [age of Person Name].
+                    </li>
+                </ul>
+            </p>
+            
+        </div>
+    </section>
+
+    <!--  Media Resource ****************** -->
+    <section class="media-resource">
+        <div class=" media-container">
+            <h1>Media and Resource Center</h1>
+            <div class="media-links-container">
+                <div class="media-links">
+                    <ul>
+                        <li><a href="./blogs.html">Blog ></a></li>
+                        <li><a href="./annualReports.html">Annual Reports ></a></li>
+                        <li><a href="./storiesOfChanges.html">Stories of Changes ></a></li>
+                    </ul>
+                </div>
+                <div class="media-links">
+                    <ul>
+                        <li><a href="./publication.html">Publications ></a></li>
+                        <li><a href="./pressRelease.html">Press Release ></a></li>
+                        <li><a href="./gallery.html">Gallery ></a></li>
+                    </ul>
+                </div>
+                <div class="media-links">
+                    <!-- <ul>
+                        <li><a href="">Publications ></a></li>
+                        <li><a href="">Press Release ></a></li>
+                        <li><a href="">Print/Online Media ></a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ####################### footer ############################### -->
+    <footer>
+        <div class="footer">
+            <div class="footer-info">
+
+                <div class="footer-col">
+                    <h5 class="name">[Org name]</h5>
+                    <div class="footer-icon">
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i> location
+                            <br> location
+                        </p>
+                        <p><i class="fa-solid fa-square-phone"></i></i> [Office]number </p>
+                        <!-- <p id="email"><i class="fa-solid fa-envelope"></i> admin@lawfoundation.org.in</p> -->
+                        <p><i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+                                target="_blank" id="email">email</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h5 class="address">Follow Us </h5>
+                    <div class="footer-icon1">
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://mobile.twitter.com/" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <!-- <a href="www.lawfoundationpatna.org" target="_blank"><i class="fa-solid fa-globe"></i></a> -->
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <div class="footer-down">
+        <hr>
+        <div class="footer-down">
+            <p id="right">
+                ©2020 [org] All rights reserved.
+            </p>
+        </div>
+
+        <div class="editor">
+            <p>
+                <i>built with 🧡 by <a class="web-link-color"
+                        href="https://webuildr.framer.ai">We Buildr Wave
+                            </a> & Hosted Freely on <a class="web-link-color"
+                        href="https://github.com/Lily-Sneha/Law-Foundation">Github
+                        Pages</a>
+                </i>
+            </p>
+        </div>
+    </div>
+
+    <div class="footer-info-down">
+        <!-- <div class="footer-down">
+            <p id="right">
+                ©2020 LAW Foundation Patna All rights reserved.</p>
+        </div> -->
+        <script src="index.js"> </script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+            </script>
+    </div>
+
+
+</body>
+
+</html>

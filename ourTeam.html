@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="[org name] foundation is non-for-profit organisation, carrying out grassroot level interventions since 2016 under the Criminal Justice Fellowship Programme of Tata Institute of Social Sciences, Mumbai and registered as a Trust in 2019.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal | [org name] Foundation</title>
+    <link rel="icon" href="./logo/law-logo.jpeg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=Fira+Sans+Condensed&family=Over+the+Rainbow&family=Rubik:wght@500&family=Shrikhand&family=Sofia+Sans:wght@200;300&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+
+<body>
+    <div class="header">
+        <nav class="nav-bar">
+            <div class="foundation-name">
+                <div class="foss-logo grid">
+                    <a href="./index.html"><img src="./logo/law-logo.jpeg" alt="Law Foundation"></a>
+                </div>
+
+                <div class="org-name grid">
+                    <a href="./index.html">
+                        <h1>[ORG NAME] FOUNDATION</h1>
+                    </a>
+                    <p>A Pathway to Justice</p>
+                </div>
+
+                <!-- Hamburger ********* -->
+                <div class="hamburgerLogo grid">
+                    <button onclick="myFunction()" id="hamburgerMenu">
+                        <i class="fa-sharp fa-solid fa-bars" id="hamburger"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <ul id="navigation">
+
+                    <li class="nav list-item" id="home">
+                        <a class="home-highlight" href="./index.html">HOME
+                            <i class="fa-sharp fa-solid fa-caret-down home-highlight" id="drop-icon1"></i>
+                        </a>
+                        <ul class="list">
+                            <li><a class="links" href="./about.html">About Us</a></li>
+                            <li><a class="links" href="./ourJourney.html">Our Journey</a></li>
+                            <li><a class="links" href="">Our Team</a></li>
+                            <li><a class="links" href="./legalStatus.html">Legal Status</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./CLAP.html">CLAP</a></li>
+                            <li><a class="links" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                            <li><a class="links" href="./GenderJustice.html">Gender Justice</a></li>
+                            <li><a class="links" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./pahel.html">PAHEL Fellowship</a></li>
+                            <li><a class="links" href="./communityAwareness.html">Community Awareness</a></li>
+                            <li><a class="links" href="./emergencySupport.html">Emergency Support</a></li>
+                            <li><a class="links" href="./homeVisit.html">Home Visit</a></li>
+                            <li><a class="links" href="./prisonVisit.html">Prison Visit</a></li>
+
+                        </ul>
+                    </li>
+
+
+                    <li class="nav list-item"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./collaborationAndnetworking.html">Collaboration & Networking</a>
+                            </li>
+                            <li><a class="links" href="./partnership.html">Partnership</a></li>
+                            <li><a class="links" href="./indivisualSupport.html">Individual Support</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./internship.html">Internships</a></li>
+                            <li><a class="links" href="./vacancies.html">Vacancies</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav donate"><a href="./donate.html">DONATE NOW</a></li>
+                </ul>
+            </div>
+
+
+            <!-- ############## Second nav dropdownmenu navbar ################ -->
+            <ul id="navi" style="display: none;">
+                <li class="navi2" id="about-drop"><a href="./index.html">HOME<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./about.html">About Us</a></li>
+                        <li><a class="second-link" href="./ourJourney.html">Our Journey</a></li>
+                        <li><a class="second-link" href="">Our Team</a></li>
+                        <li><a class="second-link" href="./legalStatus.html">Legal Status</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./CLAP.html">CLAP</a></li>
+                        <li><a class="second-link" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                        <li><a class="second-link" href="./GenderJustice.html">Gender Justice</a></li>
+                        <li><a class="second-link" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./pahel.html">PAHEL Fellowship</a></li>
+                        <li><a class="second-link" href="./communityAwareness.html">Community Awareness</a></li>
+                        <li><a class="second-link" href="./emergencySupport.html">Emergency Support</a></li>
+                        <li><a class="second-link" href="./homeVisit.html">Home Visit</a></li>
+                        <li><a class="second-link" href="./prisonVisit.html">Prison Visit</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./collaborationAndnetworking.html">Collaboration &
+                                Networking</a></li>
+                        <li><a class="second-link" href="./partnership.html">Partnership</a></li>
+                        <li><a class="second-link" href="./indivisualSupport.html">Individual Support</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./internship.html">Internships</a></li>
+                        <li><a class="second-link" href="./vacancies.html">Vacancies</a></li>
+                    </ul>
+                </li>
+
+                <li id="donation"><a href="./donate.html">DONATE NOW</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Who we are  -->
+    <section class="who-we-are-container">
+        <div class="who-we-are-text">
+            <h1>Who we are</h1>
+            <p>[Person Name] in the year [Year] came to [Location]
+                under a [Fellowship Program] of [Educational Institution],
+                [City]. In the course of fellowship, [he/she] intervened in several
+                [Correctional Facilities] and issues of socio-legal aid. After a
+                sustained endeavor of three years of extending
+                socio-legal aid services towards custodial
+                population lodged in various [Correctional Facilities]. [He/She] met
+                [Person1] and [Person2] during
+                [his/her] fellowship journey. They all encountered
+                several issues pertaining towards disadvantaged
+                custodial population. Thus they registered [Organization Name]
+                Foundation as a Trust in [Foundation Establishment Year] whose core work
+                revolves around the areas of socio-legal aid
+                services, networking, training, research, and
+                documentation, besides advocacy of custodial,
+                institutional, legal, and constitutional rights of the
+                custodial population. It is also focused on the
+                rehabilitation and re-integration of socioeconomically
+                marginalized and vulnerable
+                individuals and groups.
+            </p>
+            
+        </div>
+    </section>
+
+
+    <!-- Modal ************* -->
+    <!-- Our Team Member *******************-->
+    <section class="container-fluid team-background-color">
+        <h1 id="our-team-head">Our Team</h1>
+        <div class=" row row-cols-1 row-cols-sm-2 row-cols-lg-3 buttons-preview ">
+            <div class="col team-background">
+                <img src="./modal/team-member1.jpg" class=" modal-pic" data-toggle="modal"
+                    data-target="#modal-one"></img>
+                <div class="team-title">
+                    <h4>[name]</h4>
+                    <h5>[designation]</h5>
+                    <a class="linkedin-icon" href="https://www.linkedin.com"><i
+                            class="fa-brands fa-linkedin linkedin-img"></i></a>
+                </div>
+            </div>
+
+            <div class="col team-background">
+                <img src="./modal/team-member2.jpg" class=" modal-pic" data-toggle="modal"
+                    data-target="#modal-two"></img>
+                <div class="team-title">
+                    <h4>[name]</h4>
+                    <h5>[designation]</h5>
+                    <a class="linkedin-icon" href="https://www.linkedin.com"><i
+                            class="fa-brands fa-linkedin linkedin-img"></i></a>
+                </div>
+            </div>
+
+            <div class="col team-background">
+                <img src="./modal/team-member3.jpg" class=" modal-pic" data-toggle="modal"
+                    data-target="#modal-three"></img>
+                <div class="team-title">
+                    <h4>[name]</h4>
+                    <h5>[designation]</h5>
+                    <a class="linkedin-icon" href="https://www.linkedin.com"><i
+                            class="fa-brands fa-linkedin linkedin-img"></i></a>
+                </div>
+            </div>
+
+            <div class="col team-background">
+                <img src="./modal/team-member4.jpg" class=" modal-pic" data-toggle="modal"
+                    data-target="#modal-four"></img>
+                <div class="team-title">
+                    <h4>[name]</h4>
+                    <h5>[designation]</h5>
+                    <a class="linkedin-icon" href=""><i class="fa-brands fa-linkedin linkedin-img"></i></a>
+                </div>
+            </div>
+
+            <div class="col team-background">
+                <img src="./modal/team-member5.jpg" class=" modal-pic" data-toggle="modal"
+                    data-target="#modal-five"></img>
+            
+                    <h4>Aniket Shekhar</h4>
+                    <h5>[designation]</h5>
+                    <a class="linkedin-icon" href="https://www.linkedin.com"><i
+                            class="fa-brands fa-linkedin linkedin-img"></i></a>
+                </div>
+            </div>
+
+            <div class="col team-background">
+                <img src="./modal/team-member6.jpg" class=" modal-pic" data-toggle="modal"
+                    data-target="#modal-six"></img>
+                <div class="team-title">
+                    <h4>[name]</h4>
+                    <h5>[designation]</h5>
+                    <a class="linkedin-icon" href="https://www.linkedin.com"><i
+                            class="fa-brands fa-linkedin linkedin-img"></i></a>
+                </div>
+            </div>
+
+            <div class="col team-background">
+                <img src="./modal/team-member7.jpg" class=" modal-pic" data-toggle="modal"
+                    data-target="#modal-seven"></img>
+                <div class="team-title">
+                    <h4>[name]</h4>
+                    <h5>[designation]</h5>
+                    <a class="linkedin-icon" href="https://www.linkedin.com"><i
+                            class="fa-brands fa-linkedin linkedin-img"></i></a>
+                </div>
+            </div>
+
+            <div class="col team-background">
+                <img src="./modal/team-member8.jpg" class=" modal-pic" data-toggle="modal"
+                    data-target="#modal-eight"></img>
+                <div class="team-title">
+                    <h4>[name]</h4>
+                    <h5>[designation]</h5>
+                    <a class="linkedin-icon" href="https://www.linkedin.com/in"><i
+                            class="fa-brands fa-linkedin linkedin-img"></i></a>
+                </div>
+            </div>
+
+            <div class="col team-background">
+                <img src="./modal/team-member9.jpg" class=" modal-pic" data-toggle="modal"
+                    data-target="#modal-nine"></img>
+                <div class="team-title">
+                    <h4>[name]</h4>
+                    <h5>[designation]</h5>
+                </div>
+            </div>
+
+            <div class="col team-background">
+                <img src="./modal/team-member10.jpg" class=" modal-pic" data-toggle="modal"
+                    data-target="#modal-ten"></img>
+                <div class="team-title">
+                    <h4>[name]</h4>
+                    <h5>[designation]</h5>
+                </div>
+            </div>
+
+            <div class="col team-background">
+                <img src="./modal/khalid.jpg" class=" modal-pic" data-toggle="modal" data-target="#modal-eleven"></img>
+                <div class="team-title">
+                    <h4>[name]</h4>
+                    <h5>[designation]</h5>
+                    <a class="linkedin-icon" href="https://www.linkedin.com/in"><i
+                            class="fa-brands fa-linkedin linkedin-img"></i></a>
+                </div>
+            </div>
+
+            <div class="col team-background">
+                <img src="./modal/Shabna T K C.jpg" class=" modal-pic" data-toggle="modal"
+                    data-target="#modal-twelve"></img>
+                <div class="team-title">
+                    <h4>[name]</h4>
+                    <h5>[designation]</h5>
+                    <a class="linkedin-icon" href="https://www.linkedin.com/"><i
+                            class="fa-brands fa-linkedin linkedin-img"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Team mermber modal *************** -->
+    <div id="modal-one" class="modal modal-message modal-one fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+                <div class="modal-title">[name]</div>
+                <div class="designation">[position]</div>
+                <div class="modal-body">[name] is the [postion] of the organization who oversees fundraising,
+[Person Name] is a [Fellowship Position] at [Educational Institution] [Department] ([Fellowship Duration]). Under the direction of [Professor Name], [he/she] began focusing on the problems affecting [Inmate Population] who were awaiting trial in [Start Year] and offering them free socio-legal assistance services in the State of [State]. For [his/her] grassroots involvement in the criminal justice system, [he/she] received the [Award/Fellowship Name] in [Year]. [He/She] has been working nonstop on issues of [Targeted Groups] that are incarcerated and unable to receive fair justice. [He/She] has multiple works published under [his/her] name in [Publication Outlets] on [Research Topics] such as caste, the criminal justice system, and the problems with under-trial prisoners.
+
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="modal-two" class="modal modal-message modal-two fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+                <div class="modal-title">Shubhendu Shekhar</div>
+                <div class="designation">Co-Founder</div>
+                <div class="modal-body">Shubhendu Shekhar is the Co-Founder of the organization and leads the research,
+                    project operation, team members and communication. He has done his B.A., LL. B from National [org name]
+                    University, Jodhpur, and has been a part of this organization since its inception. He currently
+                    completed his LLM from TISS, Mumbai in Access to Justice.
+
+                    He had been awarded Clinton Global Initiative University Fellowship 2021 and the Oxford Royal
+                    Academy Scholarship 2021. He has been working continuously on the issues of marginalized communities
+                    who are imprisoned and are unable to secure due Justice. He has several publications in his name on
+                    Caste, Criminal Justice System, and issues of Under-trial Prisoners in Economics & Political Weekly,
+                    Taylor & Francis (Routledge), SAGE, and editorial pieces.</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="modal-three" class="modal modal-message modal-three fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+                <div class="modal-title">[name]</div>
+                <div class="designation">[position]</div>
+                <div class="modal-body">[Person Name] is the Co-Founder of the organization and leads the [Leadership Responsibilities] – research,
+                    project operation, team members, and communication. [He/She] has completed [his/her] B.A., LL.B from National [Organization Name]
+                    University, Jodhpur, and has been a part of this organization since its inception. [He/She] recently
+                    completed [his/her] LLM from [Educational Institution], Mumbai in Access to Justice.
+                
+                    [He/She] had been awarded the [Award1 Name] 2021 and the [Award2 Name] 2021. [He/She] has been working continuously on the issues of marginalized communities
+                    who are imprisoned and are unable to secure due justice. [He/She] has several publications in [his/her] name on
+                    [Research Topics] in [Publication Outlets], and editorial pieces.
+                
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="modal-four" class="modal modal-message modal-four fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+
+                <div class="modal-title">[name]</div>
+                <div class="designation">[postion]</div>
+                <div class="modal-body">Shalini is an advocate with an LL.M. in I.P.R. She is passionate about creating
+                    impact by engaging with people in the communities, empowering them, and educating them about their
+                    rights and duties. She handles the administrative work of the organization along with her duties of
+                    a LAW Officer. Apart from this she is leading the socio-legal aid project of the organization. From
+                    her engagement with this organization since 2021 she has appeared in near about 80 cases and secured
+                    bail in nearly 60 cases with an acquittal in one case.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-five" class="modal modal-message modal-five fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+
+                <div class="modal-title">[name]</div>
+                <div class="designation">[position]</div>
+                <div class="modal-body">[Person Name] is an advocate with an[degree]. [He/She] is passionate about creating
+                    impact by engaging with people in the communities, empowering them, and educating them about their
+                    rights and duties. [He/She] handles the administrative work of the organization along with [his/her] duties as
+                    a LAW Officer. Apart from this, [he/she] is leading the socio-legal aid project of the organization. From
+                    [his/her] engagement with this organization since [Year], [he/she] has appeared in nearly 80 cases and secured
+                    bail in nearly 60 cases with an acquittal in one case.
+
+                
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-six" class="modal modal-message modal-six fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+
+                <div class="modal-title">[name]</div>
+                <div class="designation">[postion]</div>
+                <div class="modal-body">
+                        Person Name] is engaged with the organization as a social worker. [He/She] has completed M.A. in social work
+                        from [Educational Institution], [Location]. [He/She] is passionate about bringing a change in the community by empowering
+                        the community with legal literacy and educating about their rights and duties. [His/Her] previous
+                        experience in engagement with community health has helped the organization to spread awareness about
+                        health and hygiene in the community. [He/She] holds abundant experience in working with young urban
+                        and rural women on issues of personal hygiene. Currently, [he/she] is leading a community health services
+                        initiative of the organization. In addition, [he/she] is also efficient in conducting regular community
+                        visits, resource mobilization, and social advocacy to avail the community with social entitlement
+                        rights.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-seven" class="modal modal-message modal-seven fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+
+                <div class="modal-title">Gurudev Nanda</div>
+                <div class="designation">Social Worker</div>
+                <div class="modal-body">
+                    Gurudev Nanda has a master degree in Sociology and Social Anthropology from TISS Guwahati campus. He
+                    engaged himself with the organization in 2022. As a passionate, active and young person, his
+                    perspective brings a unique value to the organization's work. He has now visited a number of jails
+                    in Bihar and, using his great interpersonal skills, has counselled a number of prisoners inside
+                    jail. Gurudev also pays visit to the prisoner's family at their residence and provide them any
+                    assistance they require including family counselling, social advocacy and emergency support. He also
+                    works on the Sustainable Mental Health Project within the prison, which aims to protect the inmates
+                    from mental illness.
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="modal-eight" class="modal modal-message modal-eight fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+
+                <div class="modal-title">[name]</div>
+                <div class="designation">[position]</div>
+                <div class="modal-body">[name] is a [desg] and a first-generation learner. In[date], he graduated
+                    from [uni] with a [course] (Hons.). [name] has assisted in many criminal
+                    cases and provided socio-legal aid to many prisoners and their families. With his excellent
+                    communication skills, he has also promoted and offered legal literacy in various disadvantaged
+                    communities.</div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-nine" class="modal modal-message modal-nine fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+
+                <div class="modal-title">[name]</div>
+                <div class="designation"> [position]</div>
+                <div class="modal-body">
+                    <p>[Person Name] is a young and active member in the organization, very enthusiastic towards understanding
+                        the needs of the community and empowering them with legal literacy. [He/She] is currently pursuing [his/her] B.A.
+                        (Hons.) in Hindi from [Educational Institution] in Bihar. [He/She] has located several villages, engaged in
+                        communication with them, and provided assistance towards mobilizing the socio-legal aid needs of the
+                        communities and conducting regular community visits, resource mobilization, and social advocacy to
+                        avail the community with social entitlement rights. [He/She] also manages the documentation record and
+                        files of registered case files, received Vakalatnama, Face Sheet of home visit, and prison visit.
+                    </p>                    
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-ten" class="modal modal-message modal-ten fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+
+                <div class="modal-title">[name]</div>
+                <div class="designation"> [position]</div>
+                <div class="modal-body"><p>[Person Name] is an advocate with an [course] from [uni] and [course] from [uni]. [He/She] is associated with [Organization Name] Foundation for the last three
+                    years. [He/She] handles legal aid cases of the organization in the [place] district. [He/She] envisions an
+                    egalitarian society where there is equality of opportunity, meaningful livelihood, dignity, and
+                    compassion. [He/She] puts all [his/her] efforts into making the desired changes.
+                </p>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-eleven" class="modal modal-message modal-eleven fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+
+                <div class="modal-title">[name]</div>
+                <div class="designation"> [position]</div>
+                <div class="modal-body">
+                    <p>[Person Name] is a lawyer and a first-generation learner. [He/She] earned a B.B.A.LL.B. (Hons.) Degree from
+                        [Uni] in [Date]. [Person Name] has dedicated [his/her] career to fighting for
+                        justice and equality in [Location]. With [his/her] remarkable research and analytical skills, [he/she] is able to
+                        give significant help to the Foundation's staff of expert lawyers in managing difficult legal
+                        situations.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-twelve" class="modal modal-message modal-twelve fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-footer">
+                    <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                </div>
+
+                <div class="modal-title">[name]</div>
+                <div class="designation"> [position]</div>
+                <div class="modal-body">
+                    <p>[Person Name] belongs to [Location], is employed by the [Org Name] Foundation in [Location] as a social worker. [He/She]
+                        graduated from [Uni]'s Tata Institute of Social Sciences with a Master's in Social Work in
+                        Criminology and Criminal Justice. [He/She] formerly worked for the care and empowerment of children with
+                        disabilities in “Thanal”, which is run by the Daya Rehabilitation Trust, as a Rehabilitation Social
+                        Worker and Child Protection Officer. [He/She] finds fulfillment in helping the disadvantaged members of
+                        society, a cause [he/she] is passionate about. [His/Her] desire to learn and unlearn motivates [him/her] to work
+                        well.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Modal Templates-->
+
+
+    <!--  Media Resource ****************** -->
+    <section class="media-resource">
+        <div class=" media-container">
+            <h1>Media and Resource Center</h1>
+            <div class="media-links-container">
+                <div class="media-links">
+                    <ul>
+                        <li><a href="./blogs.html">Blog ></a></li>
+                        <li><a href="./annualReports.html">Annual Reports ></a></li>
+                        <li><a href="./storiesOfChanges.html">Stories of Changes ></a></li>
+                    </ul>
+                </div>
+                <div class="media-links">
+                    <ul>
+                        <li><a href="./publication.html">Publications ></a></li>
+                        <li><a href="./pressRelease.html">Press Release ></a></li>
+                        <li><a href="./gallery.html">Gallery ></a></li>
+
+                    </ul>
+                </div>
+                <div class="media-links">
+                    <!-- <ul>
+                        <li><a href="">Publications ></a></li>
+                        <li><a href="">Press Release ></a></li>
+                        <li><a href="">Print/Online Media ></a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ####################### footer ############################### -->
+    <footer>
+        <div class="footer">
+            <div class="footer-info">
+
+                <div class="footer-col">
+                    <h5 class="name">[Org name]</h5>
+                    <div class="footer-icon">
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i> location
+                            <br> location
+                        </p>
+                        <p><i class="fa-solid fa-square-phone"></i></i> [Office]number </p>
+                        <!-- <p id="email"><i class="fa-solid fa-envelope"></i> admin@lawfoundation.org.in</p> -->
+                        <p><i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+                                target="_blank" id="email">email</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h5 class="address">Follow Us </h5>
+                    <div class="footer-icon1">
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://mobile.twitter.com/" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <!-- <a href="www.lawfoundationpatna.org" target="_blank"><i class="fa-solid fa-globe"></i></a> -->
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <div class="footer-down">
+        <hr>
+        <div class="footer-down">
+            <p id="right">
+                ©2020 [org] All rights reserved.
+            </p>
+        </div>
+
+        <div class="editor">
+            <p>
+                <i>built with 🧡 by <a class="web-link-color"
+                        href="https://webuildr.framer.ai">We Buildr Wave
+                            </a> & Hosted Freely on <a class="web-link-color"
+                        href="https://github.com/Lily-Sneha/Law-Foundation">Github
+                        Pages</a>
+                </i>
+            </p>
+        </div>
+    </div>
+
+    <div class="footer-info-down">
+        <!-- Js link -->
+        <script src="index.js"> </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>

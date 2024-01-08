@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="[org name] foundation is non-for-profit organisation, carrying out grassroot level interventions since 2016 under the Criminal Justice Fellowship Programme of Tata Institute of Social Sciences, Mumbai and registered as a Trust in 2019.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal | [org name] Foundation</title>
+    <link rel="icon" href="./logo/law-logo.jpeg">
+
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=Fira+Sans+Condensed&family=Over+the+Rainbow&family=Rubik:wght@500&family=Shrikhand&family=Sofia+Sans:wght@200;300&display=swap"
+        rel="stylesheet">
+
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<body>
+    <div class="header">
+        <nav class="nav-bar">
+            <div class="foundation-name">
+                <div class="foss-logo grid">
+                    <a href="./index.html"> <img src="./logo/law-logo.jpeg" alt="Law Foundation"></a>
+                </div>
+
+                <div class="org-name grid">
+                    <a href="./index.html">
+                        <h1>[org name] FOUNDATION</h1>
+                    </a>
+                    <p>A Pathway to Justice</p>
+                </div>
+
+                <!-- Hamburger ********* -->
+                <div class="hamburgerLogo grid">
+                    <button onclick="myFunction()" id="hamburgerMenu">
+                        <i class="fa-sharp fa-solid fa-bars" id="hamburger"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <ul id="navigation">
+
+                    <li class="nav list-item" id="home">
+                        <a class="home-highlight" href="./index.html">HOME
+                            <i class="fa-sharp fa-solid fa-caret-down home-highlight" id="drop-icon1"></i>
+                        </a>
+                        <ul class="list">
+                            <li><a class="links" href="./about.html">About Us</a></li>
+                            <li><a class="links" href="./ourJourney.html">Our Journey</a></li>
+                            <li><a class="links" href="./ourTeam.html">Our Team</a></li>
+                            <li><a class="links" href="./legalStatus.html">Legal Status</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./CLAP.html">CLAP</a></li>
+                            <li><a class="links" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                            <li><a class="links" href="./GenderJustice.html">Gender Justice</a></li>
+                            <li><a class="links" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./pahel.html">PAHEL Fellowship</a></li>
+                            <li><a class="links" href="./communityAwareness.html">Community Awareness</a></li>
+                            <li><a class="links" href="./emergencySupport.html">Emergency Support</a></li>
+                            <li><a class="links" href="./homeVisit.html">Home Visit</a></li>
+                            <li><a class="links" href="./prisonVisit.html">Prison Visit</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./collaborationAndnetworking.html">Collaboration & Networking</a>
+                            </li>
+                            <li><a class="links" href="./partnership.html">Partnership</a></li>
+                            <li><a class="links" href="./indivisualSupport.html">Individual Support</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav list-item"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./internship.html">Internships</a></li>
+                            <li><a class="links" href="./vacancies.html">Vacancies</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav donate"><a href="./donate.html">DONATE NOW</a></li>
+                </ul>
+            </div>
+
+
+            <!-- ############## Second nav dropdownmenu navbar ################ -->
+            <ul id="navi" style="display: none;">
+                <li class="navi2" id="about-drop"><a href="./index.html">HOME<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./about.html">About Us</a></li>
+                        <li><a class="second-link" href="./ourJourney.html">Our Journey</a></li>
+                        <li><a class="second-link" href="./ourTeam.html">Our Team</a></li>
+                        <li><a class="second-link" href="./legalStatus.html">Legal Status</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./CLAP.html">CLAP</a></li>
+                        <li><a class="second-link" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                        <li><a class="second-link" href="./GenderJustice.html">Gender Justice</a></li>
+                        <li><a class="second-link" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                    </ul>
+                </li>
+                <li class="navi2" id="event-drop"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./pahel.html">PAHEL Fellowship</a></li>
+                        <li><a class="second-link" href="./communityAwareness.html">Community Awareness</a></li>
+                        <li><a class="second-link" href="./emergencySupport.html">Emergency Support</a></li>
+                        <li><a class="second-link" href="./homeVisit.html">Home Visit</a></li>
+                        <li><a class="second-link" href="./prisonVisit.html">Prison Visit</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./collaborationAndnetworking.html">Collaboration &
+                                Networking</a></li>
+                        <li><a class="second-link" href="./partnership.html">Partnership</a></li>
+                        <li><a class="second-link" href="./indivisualSupport.html">Individual Support</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./internship.html">Internships</a></li>
+                        <li><a class="second-link" href="./vacancies.html">Vacancies</a></li>
+                    </ul>
+                </li>
+
+                <li id="donation"><a href="./donate.html">DONATE NOW</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- Publication ***************** -->
+    <section class="publication-container">
+        <div class="publication-head">
+            <h1>Journal Publications</h1>
+            <p>[org name] Foundation is immensely happy to share paper publications.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-3 row-cols-md-4 journal-publication-container">
+            <div class="col publication">
+                <div>
+                    <h5 style="color: red;">Economics and
+                        Political weekly
+                    </h5>
+                    <p>Undertrial Prisoners in
+                        Bihar: A Study of Liquor
+                        Ban Arrests</p>
+                    <a
+                        href="https://49b46439-c195-47c4-92e8-dcdec329a244.filesusr.com/ugd/09b2a7_94a4b987e45f46cca0d10f1808de85e3.pdf">Read
+                        More >
+                    </a>
+                </div>
+            </div>
+
+            <div class="col publication">
+                <h5 style="color: green;">Taylor and Francis
+                    Routeledge
+                </h5>
+                <p>
+                    The Ambedkar Group,
+                    Lower "Caste" Prisoners
+                    and Social Justice in
+                    India
+                </p>
+                <a
+                    href="https://49b46439-c195-47c4-92e8-dcdec329a244.filesusr.com/ugd/09b2a7_26ea166b0ebe471a8e58625164c5ade0.pdf">Read
+                    More >
+                </a>
+            </div>
+
+            <div class="col publication">
+                <h5>
+                    Taylor and Francis
+                    Routeledge
+                </h5>
+                <p style="color: red;">
+                    Working with silenced
+                    under-trial prisoners in
+                    India during the
+                    COVID-19 pandemic
+                </p>
+                <a
+                    href="https://49b46439-c195-47c4-92e8-dcdec329a244.filesusr.com/ugd/09b2a7_941e101ee10c466eb5b06945a502e3af.pdf">Read
+                    More >
+                </a>
+            </div>
+
+            <div class="col publication">
+                <h5 style="color: blue;">
+                    SAGE
+                    Journal of Social Inclusion Studies
+                </h5>
+                <p>
+                    Contemporary Socio-
+                    Economic challenges
+                    and Legal Intervention
+                    to Nomadic Tribal
+                    Community: A case
+                    study of Nomadic
+                    Prisoners in Bihar
+                </p>
+                <a
+                    href="https://49b46439-c195-47c4-92e8-dcdec329a244.filesusr.com/ugd/09b2a7_93fc4a18f1334c97baf924b6b6a31f96.pdf">Read
+                    More >
+                </a>
+            </div>
+
+            <div class="col publication">
+                <h5>Taylor and Francis
+                    Routeledge
+                </h5>
+                <p style="color: blue;">
+                    Responding to the
+                    needs of beedi
+                    workers after the
+                    outbreak of the
+                    COVID-19 pandemic
+                </p>
+                <a
+                    href="https://49b46439-c195-47c4-92e8-dcdec329a244.filesusr.com/ugd/09b2a7_6c206407fa9d43b4b765baaac18384db.pdf">Read
+                    More >
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--  Media Resource ****************** -->
+    <section class="media-resource">
+        <div class=" media-container">
+            <h1>Media and Resource Center</h1>
+            <div class="media-links-container">
+                <div class="media-links">
+                    <ul>
+                        <li><a href="./blogs.html">Blog ></a></li>
+                        <li><a href="./annualReports.html">Annual Reports ></a></li>
+                        <li><a href="./storiesOfChanges.html">Stories of Changes ></a></li>
+                    </ul>
+                </div>
+                <div class="media-links">
+                    <ul>
+                        <li><a href="">Publications ></a></li>
+                        <li><a href="./pressRelease.html">Press Release ></a></li>
+                        <li><a href="./gallery.html">Gallery ></a></li>
+
+                    </ul>
+                </div>
+                <div class="media-links">
+                    <!-- <ul>
+                        <li><a href="">Publications ></a></li>
+                        <li><a href="">Press Release ></a></li>
+                        <li><a href="">Print/Online Media ></a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ####################### footer ############################### -->
+    <footer>
+        <div class="footer">
+            <div class="footer-info">
+
+                <div class="footer-col">
+                    <h5 class="name">[Org name]</h5>
+                    <div class="footer-icon">
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i> location
+                            <br> location
+                        </p>
+                        <p><i class="fa-solid fa-square-phone"></i></i> [Office]number </p>
+                        <!-- <p id="email"><i class="fa-solid fa-envelope"></i> admin@lawfoundation.org.in</p> -->
+                        <p><i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+                                target="_blank" id="email">email</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h5 class="address">Follow Us </h5>
+                    <div class="footer-icon1">
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://mobile.twitter.com/" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <!-- <a href="www.lawfoundationpatna.org" target="_blank"><i class="fa-solid fa-globe"></i></a> -->
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <div class="footer-down">
+        <hr>
+        <div class="footer-down">
+            <p id="right">
+                ©2020 [org] All rights reserved.
+            </p>
+        </div>
+
+        <div class="editor">
+            <p>
+                <i>built with 🧡 by <a class="web-link-color"
+                        href="https://webuildr.framer.ai">We Buildr Wave
+                            </a> & Hosted Freely on <a class="web-link-color"
+                        href="https://github.com/Lily-Sneha/Law-Foundation">Github
+                        Pages</a>
+                </i>
+            </p>
+        </div>
+    </div>
+    
+    <div class="footer-info-down">
+
+        <!-- JS link  -->
+        <script src="index.js"> </script>
+
+        <!-- Bootstrap JS link -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+            </script>
+    </div>
+</body>
+
+</html>

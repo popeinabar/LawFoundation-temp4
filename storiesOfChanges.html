@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="[org name] foundation is non-for-profit organisation, carrying out grassroot level interventions since 2016 under the Criminal Justice Fellowship Programme of Tata Institute of Social Sciences, Mumbai and registered as a Trust in 2019.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal | [org name] Foundation</title>
+    <link rel="icon" href="./logo/law-logo.jpeg">
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=Fira+Sans+Condensed&family=Over+the+Rainbow&family=Rubik:wght@500&family=Shrikhand&family=Sofia+Sans:wght@200;300&display=swap"
+        rel="stylesheet">
+
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<body>
+    <!-- <div> -->
+
+    <div class="header">
+        <nav class="nav-bar">
+            <div class="foundation-name">
+                <div class="foss-logo grid">
+                    <a href="./index.html"><img src="./logo/law-logo.jpeg" alt="Law Foundation"></a>
+                </div>
+
+                <div class="org-name grid">
+                    <a href="./index.html">
+                        <h1>[org name] FOUNDATION</h1>
+                    </a>
+
+                    <p>A Pathway to Justice</p>
+                </div>
+
+                <!-- Hamburger ********* -->
+                <div class="hamburgerLogo grid">
+                    <button onclick="myFunction()" id="hamburgerMenu">
+                        <i class="fa-sharp fa-solid fa-bars" id="hamburger"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <ul id="navigation">
+
+                    <li class="nav list-item" id="home"><a class="home-highlight" href="./index.html">HOME<i
+                                class="fa-sharp fa-solid fa-caret-down home-highlight" id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./about.html">About Us</a></li>
+                            <li><a class="links" href="./ourJourney.html">Our Journey</a></li>
+                            <li><a class="links" href="./ourTeam.html">Our Team</a></li>
+                            <li><a class="links" href="./legalStatus.html">Legal Status</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./CLAP.html">CLAP</a></li>
+                            <li><a class="links" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                            <li><a class="links" href="./sustainableMentalHealth.html">Sustainable Mental Health in
+                                    Prison</a></li>
+                            <li><a class="links" href="./GenderJustice.html">Gender Justice</a></li>
+                            <li><a class="links" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./pahel.html">PAHEL Fellowship</a></li>
+                            <li><a class="links" href="./communityAwareness.html">Community Awareness</a></li>
+                            <li><a class="links" href="./emergencySupport.html">Emergency Support</a></li>
+                            <li><a class="links" href="./homeVisit.html">Home Visit</a></li>
+                            <li><a class="links" href="./prisonVisit.html">Prison Visit</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./collaborationAndnetworking.html">Collaboration & Networking</a>
+                            </li>
+                            <li><a class="links" href="./partnership.html">Partnership</a></li>
+                            <li><a class="links" href="./indivisualSupport.html">Individual Support</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav list-item"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a class="links" href="./internship.html">Internships</a></li>
+                            <li><a class="links" href="./vacancies.html">Vacancies</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav donate"><a href="./donate.html">DONATE NOW</a></li>
+                </ul>
+            </div>
+
+
+            <!-- ############## Second nav dropdownmenu navbar ################ -->
+            <ul id="navi" style="display: none;">
+                <li class="navi2" id="about-drop"><a href="./index.html">HOME<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./about.html">About Us</a></li>
+                        <li><a class="second-link" href="./ourJourney.html">Our Journey</a></li>
+                        <li><a class="second-link" href="./ourTeam.html">Our Team</a></li>
+                        <li><a class="second-link" href="./legalStatus.html">Legal Status</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./CLAP.html">CLAP</a></li>
+                        <li><a class="second-link" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                        <li><a class="second-link" href="./GenderJustice.html">Gender Justice</a></li>
+                        <li><a class="second-link" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                    </ul>
+                </li>
+                <li class="navi2" id="event-drop"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./pahel.html">PAHEL Fellowship</a></li>
+                        <li><a class="second-link" href="./communityAwareness.html">Community Awareness</a></li>
+                        <li><a class="second-link" href="./emergencySupport.html">Emergency Support</a></li>
+                        <li><a class="second-link" href="./homeVisit.html">Home Visit</a></li>
+                        <li><a class="second-link" href="./prisonVisit.html">Prison Visit</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./collaborationAndnetworking.html">Collaboration &
+                                Networking</a></li>
+                        <li><a class="second-link" href="./partnership.html">Partnership</a></li>
+                        <li><a class="second-link" href="./indivisualSupport.html">Individual Support</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a class="second-link" href="./internship.html">Internships</a></li>
+                        <li><a class="second-link" href="./vacancies.html">Vacancies</a></li>
+                    </ul>
+                </li>
+
+                <li id="donation"><a href="./donate.html">DONATE NOW</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <!--Stories of changes ***************** -->
+
+    <section id="story-of-changes-container">
+        <h1 id="story-of-change-head">Stories of Changes</h1>
+        <div class="stories" id="aman">
+            <h4>Not only justice be done, it must also be seen to be done</h4>
+
+            <div class="stories" id="[Unique Identifier]">
+                <h4>Negligence is a threat to Justice</h4>
+            
+                <p>
+                    <span>Case Background:</span> On [Date] a young man aged 22 years was apprehended by the Railway
+                    Police on
+                    accusations of theft and was put behind the bars. He was booked under Section 379/411 of the Indian
+                    Penal Code 1860 i.e., Theft, which prescribes punishment of up to three years or a fine or both. His
+                    bail application was rejected by the lower court after which he knocked on the doors of Sessions Judge,
+                    [Location] where he was granted bail on [Date]. But due to his inability to furnish bail bond, he was not
+                    released on bail and languished in jail thereafter.
+                </p>
+                <p>In January 2022 while a usual visit to Jahanabad Sub-Jail for identifying prisoners in need of legal aid
+                    we came across this alleged prisoner who was still imprisoned. He has served the total punishment
+                    prescribed for theft being an under-trial prisoner whose trial was not concluded yet.
+                </p>
+                <p>
+                    <span>Legal Recourse:</span> Panel Advocates of [Organization Name] Foundation filed an evidence close petition in the
+                    Railway Judicial Magistrate, [Location] for him after knowing his tyrannical journey with the justice
+                    system. This application was rejected without considering the struggle and conditions faced by him all
+                    these years. While giving him legal assistance, we did not give up hope. The pathway to justice is
+                    always difficult, it’s just the hope that keeps up boosted to fight the injustice prevailing in the
+                    system. In February 2022 a new magistrate was appointed in the Railway Court. Without wasting any time,
+                    we approached the newly joined magistrate for getting relief. He very well understood our concerns and
+                    agreed to entertain this petition in light of justice. Thereafter, he closed all evidence in this case
+                    and acquitted him, on the lack of evidence.
+                </p>
+                <p>
+                    <span>Gaps Analysis and Conclusion:</span> This particular case shows us the several loopholes and gaps
+                    that our criminal justice system is filled up with. Despite getting bail the person is languishing in
+                    jail and the judicial officer has no checks and balances in this regard. The chargesheet was filed, the
+                    cognizance was taken and the charge was also framed in-spite of all this the case is never put on trial.
+                    A person can only be punished for the prescribed term of punishment. Once he serves the prescribed time,
+                    he cannot be apprehended but, in this case, the accused is serving in prison more than the prescribed
+                    tenure while he is an undertrial.
+                    Justice was never served to him. He is a big example of the negligence bar and the bench towards
+                    prisoners languishing in jail. He was acquitted after 3 years and 6 months, which is not justice but his
+                    right to be freed.
+                </p>
+            </div>
+            
+        </div>
+
+
+        <div class="stories" id="[Unique Identifier]">
+            <h4>Negligence is a threat to Justice</h4>
+        
+            <p>
+                <span>Case Background:</span> [Victim Name], a boy who left his hometown [Hometown], to hunt for jobs in a big
+                city, never
+                knew would land up in jail because of the powerful people who misuse their position. Can someone’s face
+                describe his intentions ever, if yes then the jails would have more people there. But, here in this case
+                the police merely on the basis of their suspicion that the boy would commit a cognizable offence under
+                Sections of I.P.C. arrested him and sent him to judicial custody. While our visit to [Jail Name] for
+                the identification of inmates who require legal aid, this boy came up to us and was crying profusely. He
+                stated that he used to earn in [City Name] but due to the lockdown he was forced to return back to his
+                hometown. Once this COVID situation cooled down he decided to return back to work, and for this, he came
+                to [Location] to meet a friend while he was searching for him police arrested him under Section 109 of
+                Cr.P.C. He was incarcerated under a bailable section that requires the bond and not custody. He was
+                there in that prison for near about six months in a single piece of clothing. He also shared his
+                mother’s and sister’s contact numbers.
+            </p>
+            <p>
+                His family was contacted and they turned up soon and narrated the agony they had gone through. How they
+                were fooled by people in the name of help, and the trust issues they had while we contacted them. The
+                family had suffered a lot because of the loopholes the justice system has.
+            </p>
+            <p>
+                <span>Legal Recourse:</span> Panel Advocates of [Organization Name] Foundation tracked the case very well and carried
+                out all the
+                necessity that was ignored by others. They then filed a bail petition for the beneficiary, called the
+                family to be the bailor, spent one whole day making the case a priority, and succeeded in getting bail
+                for him on [Bail Date].
+            </p>
+            <p>
+                <span>Gap Analysis and Conclusion:</span> This case shows the pathetic structure of our justice system,
+                and how
+                innocent lives are merely ruined based on assumptions. Assumptions can’t be a basis for arresting a
+                person because police do not have the capacity to read a person’s mind. When the police take someone in
+                their custody the first step, they need to take is to inform the family or close ones of that person
+                which was totally neglected. Where the friend or relative of the person arrested lives outside the
+                district, the time and place of arrest and venue of custody must be notified by police within 8 to 12
+                hours after arrest. This should be done by telegram through the District Legal Aid Authority and the
+                concerned police station. When his family reached searching him no information was surpassed to them
+                properly all they received were in bits and pieces. No heed was paid towards his fundamental right of
+                liberty and was kept imprisoned until and unless we intervened.
+            </p>
+        </div>
+        
+        </div>
+
+
+        <div class="stories" id="pratibha">
+            <h4>Violence leads to injustice</h4>
+
+            <p>
+                The prison visit to [Prison Name] exposed us to the injustice present in our judicial system.
+                [Victim Name], a lady who is standing on the doors of her old age is locked behind the bars in her 50s.
+                She was booked under Section 498A, 324, 326, 307, 304 (B) of the Indian Penal Code, 1860. These offenses
+                are serious in nature and prescribe a punishment of up to 10 years or life imprisonment.
+            </p>
+            <p>
+                It was alleged that [Victim Name] along with her elder sister in the month of November 2009 sprinkled
+                Kerosene
+                on her sister-in-law and put her on fire. Thereafter in January 2010, she got arrested for this
+                offense, while her sister fled away. [Victim Name] was imprisoned since then.
+            </p>
+            <p>
+                In [Year], during the regular prison visit, the case of [Victim Name] Ji came to our notice. After this Adv.
+                Santosh, the Senior Counsel of the organization, went to [Court Name] and pursued the records and found
+                that in all these years nobody from her family hired an advocate to secure bail for her, neither she was
+                given any advocate from DLSA. In [Year], in this case, a Non-Bailable Warrant was issued against the
+                informant and other witnesses of the case but none turned up. Thrice NBW was issued against the
+                informant and witnesses but neither of them appeared to the court on any prescribed date. Then Adv.
+                Santosh Kumar along with Adv. Shalini scrutinized the case details and interacted with [Victim Name]
+                through jail officials and procured her signature on Vakalatnama. Then, an application was filed to
+                close evidence in this case. The court ordered police officials at [Location] to file a service report at
+                earliest in this case. As per the report prepared by the police investigating the case, neither the
+                informant nor the witnesses ever resided at that place according to the locals thereby.
+            </p>
+            <p>
+                [Victim Name] was like a soul waiting for the day to be freed. She had lost her mental capacity for
+                understanding. But the judicial system never functions on the emotion of prisoners rather it sticks to
+                the judicial policy. Yet, the team comprising Adv. Santosh Kumar, Adv. Shivshankar, and Adv. Shalini
+                never lost hope of a new beginning in [Victim Name] Ji’s life.
+            </p>
+            <p>
+                On the day of International Women’s Day, the court acquitted [Victim Name] Ji from all charges in the
+                present case on the ground of lack of evidence. She was then released on [Date]. Her brother
+                came to receive her, and it was an emotional re-bonding of the siblings. Though she lost a major part of
+                her life in the twelve years of imprisonment, she did not forget her family her husband, her father, and
+                especially her siblings. She has paid a heavy amount in all these years. Her mental health has been
+                adversely affected because of this. She does not remember her children. She is not aware that she has
+                lost her husband in all these years nor she has the understanding to accept this fact. Justice came to
+                her no doubt, but at a heavy cost of 12 years of her life. Maybe she will return to society but will she
+                be accepted into society, will her kids accept her, or will she ever get to normalcy with her mental
+                condition?
+            </p>
+            
+        </div>
+
+
+        <div class="stories" id="Rehan">
+            <h4>Delayed but Justice delivered</h4>
+
+            <p>
+                The case began at Hanuman Mandir situated at [Location 1] Junction in [Location 2]. Md. Rehan, a 19-year-old boy,
+                was arrested by Kotwali Police in [Month Year] for the offense of committing theft of a mobile phone. He was sent
+                to judicial custody thereafter. In [Month Year + 4 months], when the team of [Org 1 Name] Foundation visited [Location
+                3] Jail, they met him. After returning back to [Location 1], they pursued his case records and found that no bail
+                has been filed in the last 4 months on his behalf. A bail application was filed by the advocates of [Org 1 Name]
+                Foundation, which was heard by the magistrate and allowed, but there was no bailor on his behalf. After regular
+                meetings and counseling Adv. Shalini gained his trust and he shared the proper address of his family and also his
+                father’s mobile number. Without wasting any time, she then contacted his father, but his parents hardly cared about
+                his existence. His father said, "I do not have money; I cannot spend my everything on him since I have to take care
+                of my wife and other children too." After constant effort, we came to know that his mother died years ago, and his
+                father and his stepmother and children disliked him because of this he left home and started working in a restaurant
+                near [Location 1] Junction and landed up behind bars.
+            </p>
+            
+            <p>
+                <span>Court Procedures:</span> Although the team secured bail, they failed to get him out of the jail, thus they
+                moved ahead with the trial of the case. In the court, they facilitated in the framing of the charge after which the
+                witnesses were summoned. But the witness did not turn up after two summonses. The SHO was ordered to serve a service
+                report but failed to do so. Thereafter, the court issued a bailable warrant, and later in [Month Year], an NBW was
+                issued against the witness to appear on the next date.
+            </p>
+            
+            <p>
+                On [Date] all four witnesses were asked to appear again After which they appeared. None of them identified the
+                accused and had various discrepancies in their statements. There was no eyewitness to the case, the case was not
+                investigated by the I.O. properly. Then, on [Date], the magistrate pronounced the judgment in favor of the accused
+                and acquitted him of all the charges.
+            </p>
+            
+            <p>
+                The trial, in this case, was completed in just a span of five months. Although the accused had to remain in jail for
+                nine months, yet the best thing is that now he is a free bird and has a chance to start with new beginnings. The
+                experience he had with the criminal justice system would make him realize the bitter truths of life.
+            </p>
+            
+        </div>
+
+
+        <!-- 
+        <div class="stories" id="Ranjay">
+            <h1>P.R. Story</h1>
+            <h4>Ranjay Singh* v. State of Bihar</h4>
+            <p>
+                Case Background: The beneficiary had been incarcerated since 2019 in a counter case filed by his
+                neighbors in lieu of a fight happened between the parties on some minor issues. All the sections imposed
+                upon him were bailable in nature except section 379 which stands for theft. The whole purpose of this
+                counter case was to make him rot in jail.
+            </p>
+
+            <p>
+                Case Background: The beneficiary had been incarcerated since 2019 in a counter case filed by his
+                neighbors in lieu of a fight happened between the parties on some minor issues. All the sections imposed
+                upon him were bailable in nature except section 379 which stands for theft. The whole purpose of this
+                counter case was to make him rot in jail.
+            </p>
+            <p>
+                The matter was heard in the court of law and as because he was eligible for the same due to the custody
+                of 2 years and 9 months this prayer was allowed.
+            </p>
+            <p>
+                Two days later the release was sent and he was released.
+            </p>
+        </div> -->
+    </section>
+
+
+    <!--  Media Resource ****************** -->
+    <section class="media-resource">
+        <div class=" media-container">
+            <h1>Media and Resource Center</h1>
+            <div class="media-links-container">
+                <div class="media-links">
+                    <ul>
+                        <li><a href="./blogs.html">Blog ></a></li>
+                        <li><a href="./annualReports.html">Annual Reports ></a></li>
+                        <li><a href="">Stories of Changes ></a></li>
+                    </ul>
+                </div>
+                <div class="media-links">
+                    <ul>
+                        <li><a href="./publication.html">Publications ></a></li>
+                        <li><a href="./pressRelease.html">Press Release ></a></li>
+                        <li><a href="./gallery.html">Gallery ></a></li>
+
+                    </ul>
+                </div>
+                <div class="media-links">
+                    <!-- <ul>
+                        <li><a href="">Publications ></a></li>
+                        <li><a href="">Press Release ></a></li>
+                        <li><a href="">Print/Online Media ></a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ####################### footer ############################### -->
+    <footer>
+        <div class="footer">
+            <div class="footer-info">
+
+                <div class="footer-col">
+                    <h5 class="name">[Org name]</h5>
+                    <div class="footer-icon">
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i> location
+                            <br> location
+                        </p>
+                        <p><i class="fa-solid fa-square-phone"></i></i> [Office]number </p>
+                        <!-- <p id="email"><i class="fa-solid fa-envelope"></i> admin@lawfoundation.org.in</p> -->
+                        <p><i class="fa-solid fa-envelope"></i>
+                            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+                                target="_blank" id="email">email</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h5 class="address">Follow Us </h5>
+                    <div class="footer-icon1">
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://mobile.twitter.com/" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <!-- <a href="www.lawfoundationpatna.org" target="_blank"><i class="fa-solid fa-globe"></i></a> -->
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <div class="footer-down">
+        <hr>
+        <div class="footer-down">
+            <p id="right">
+                ©2020 [org] All rights reserved.
+            </p>
+        </div>
+
+        <div class="editor">
+            <p>
+                <i>built with 🧡 by <a class="web-link-color"
+                        href="https://webuildr.framer.ai">We Buildr Wave
+                            </a> & Hosted Freely on <a class="web-link-color"
+                        href="https://github.com/Lily-Sneha/Law-Foundation">Github
+                        Pages</a>
+                </i>
+            </p>
+        </div>
+    </div>
+
+    <div class="footer-info-down">
+        <!-- Js link -->
+        <script src="index.js"> </script>
+
+        <!-- Bootstrap link -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+            </script>
+    </div>
+</body>
+
+</html>

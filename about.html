@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="[org name] is non-for-profit organisation, carrying out grassroot level interventions since 2016 under the Criminal Justice Fellowship Programme of Tata Institute of Social Sciences, Mumbai and registered as a Trust in 2019.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal | [org name]</title>
+    <link rel="icon" href="./logo/law-logo.jpeg">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=Fira+Sans+Condensed&family=Over+the+Rainbow&family=Rubik:wght@500&family=Shrikhand&family=Sofia+Sans:wght@200;300&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+<body>
+    <div>
+        <div class="header">
+            <nav class="nav-bar">
+                <div class="foundation-name">
+                    <div class="foss-logo grid">
+                        <a href="./index.html"><img src="./logo/law-logo.jpeg" alt="Law Foundation"></a>
+                    </div>
+
+                    <div class="org-name grid">
+                        <a href="./index.html">
+                            <h1>[ORG NAME]</h1>
+                        </a>
+                        <p>A Pathway to Justice</p>
+                    </div>
+
+                    <!-- Hamburger ********* -->
+                    <div class="hamburgerLogo grid">
+                        <button onclick="myFunction()" id="hamburgerMenu">
+                            <i class="fa-sharp fa-solid fa-bars" id="hamburger"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="nav-links" id="navLinks">
+                    <ul id="navigation">
+                        <li class="nav list-item" id="home">
+                            <a class="home-highlight" href="./index.html" target="_blank">HOME<i
+                                    class="fa-sharp fa-solid fa-caret-down home-highlight" id="drop-icon1"></i>
+                            </a>
+                            <ul class="list">
+                                <li><a class="links" href="">About Us</a></li>
+                                <li><a class="links" href="./ourJourney.html">Our Journey</a></li>
+                                <li><a class="links" href="./ourTeam.html" target="_blank">Our Team</a></li>
+                                <li><a class="links" href="./legalStatus.html" target="_blank">Legal Status</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav list-item" id="list-item"><a>INITIATIVES<i
+                                    class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i></a>
+                            <ul class="list">
+                                <li><a class="links" href="./CLAP.html">CLAP</a></li>
+                                <li><a class="links" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                                <li><a class="links" href="./GenderJustice.html">Gender Justice</a></li>
+                                <li><a class="links" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav list-item" id="list-item"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                                    id="drop-icon1"></i></a>
+                            <ul class="list">
+                                <li><a class="links" href="./pahel.html">PAHEL Fellowship</a></li>
+                                <li><a class="links" href="./communityAwareness.html">Community Awareness</a></li>
+                                <li><a class="links" href="./emergencySupport.html">Emergency Support</a></li>
+                                <li><a class="links" href="./homeVisit.html">Home Visit</a></li>
+                                <li><a class="links" href="./prisonVisit.html">Prison Visit</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav list-item" id="list-item"><a>GET INVOLVED<i
+                                    class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i></a>
+                            <ul class="list">
+                                <li><a class="links" href="./collaborationAndnetworking.html">Collaboration &
+                                        Networking</a></li>
+                                <li><a class="links" href="./partnership.html">Partnership</a></li>
+                                <li><a class="links" href="./indivisualSupport.html">Individual Support</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav list-item" id="list-item"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                                    id="drop-icon1"></i></a>
+                            <ul class="list">
+                                <li><a class="links" href="./internship.html">Internships</a></li>
+                                <li><a class="links" href="./vacancies.html">Vacancies</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav donate"><a href="./donate.html">DONATE NOW</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- ############## Second nav dropdownmenu navbar ################ -->
+                <ul id="navi" style="display: none;">
+                    <li class="navi2" id="about-drop"><a href="./index.html">HOME<i
+                                class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i></a>
+                        <ul class="list2 second-drop">
+                            <li><a class="second-link" href="#">About Us</a></li>
+                            <li><a class="second-link" href="./ourJourney.html">Our Journey</a></li>
+                            <li><a class="second-link" href="./ourTeam.html">Our Team</a></li>
+                            <li><a class="second-link" href="./legalStatus.html">Legal Status</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="navi2" id="event-drop"><a>INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list2 second-drop">
+                            <li><a class="second-link" href="./CLAP.html">CLAP</a></li>
+                            <li><a class="second-link" href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                            <li><a class="second-link" href="./GenderJustice.html">Gender Justice</a></li>
+                            <li><a class="second-link" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="navi2" id="event-drop"><a>PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list2 second-drop">
+                            <li><a class="second-link" href="./pahel.html">PAHEL Fellowship</a></li>
+                            <li><a class="second-link" href="./communityAwareness.html">Community Awareness</a></li>
+                            <li><a class="second-link" href="./emergencySupport.html">Emergency Support</a></li>
+                            <li><a class="second-link" href="./homeVisit.html">Home Visit</a></li>
+                            <li><a class="second-link" href="./prisonVisit.html">Prison Visit</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="navi2" id="event-drop"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list2 second-drop">
+                            <li><a class="second-link" href="./collaborationAndnetworking.html">Collaboration &
+                                    Networking</a></li>
+                            <li><a class="second-link" href="./partnership.html">Partnership</a></li>
+                            <li><a class="second-link" href="./indivisualSupport.html">Individual Support</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="navi2" id="event-drop"><a>JOIN US<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list2 second-drop">
+                            <li><a class="second-link" href="./internship.html">Internships</a></li>
+                            <li><a class="second-link" href="./vacancies.html">Vacancies</a></li>
+                        </ul>
+                    </li>
+
+                    <li id="donation"><a href="./donate.html">DONATE NOW</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- Martin Luthar King  ************** -->
+        <section class="martin-luthar-container">
+            <div class="critic-quote">
+                <p id="quote">“Injustice anywhere is a threat to justice everywhere.”</p>
+                <p class="critic-name">- Martin Luther King</p>
+
+            </div>
+            <div class="critic-pic"><img src="./photo/martin-luthar.jpg" alt="Martin Luthar King" loading="lazy"></div>
+        </section>
+
+        <!--  About Us *********************************************** -->
+        <section class="about-container">
+            <div>
+                <h1 id="about-us">About Us</h1>
+                <p id="about-org">[org name] is non-for-profit organisation, carrying out grassroot level
+                    interventions
+                    since [year] under
+                    the Criminal Justice Fellowship Programme of [uni] registered as
+                    a
+                    Trust in [year]. Our core work revolves around enabling socio-legal aid, networking, training,
+                    rehabilitation,
+                    re-integration and advocacy with respect to the custodial, institutional, legal and constitutional
+                    rights of
+                    socio-economically marginalized communities. To this end, permission to work with the criminal
+                    justice
+                    system and interact with persons detained or confined in prisons and government residential
+                    institutions
+                    in
+                    [place] has been obtained from the [position]
+                   [names]
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Vision and Mission *************************************** -->
+        <section class="mission-vision-section">
+            <div class="mission-vision-container">
+                <div class="mission-vision-head">
+
+                    <div class="mission-vision-div">
+                        <h1>Mission</h1>
+                        <div class="mison-vision-img-container">
+                            <img src="./mission/Mission (1).png" class="mission-vision-img" alt="Mission">
+                        </div>
+                        <p>To extend socio-legal aid
+                            to disadvantaged communities,
+                            groups and individuals; enabling
+                            equal access to constitutional rights.</p>
+                    </div>
+                </div>
+
+                <div class="mission-vision-head">
+
+                    <div class="mission-vision-div">
+                        <h1>Vision</h1>
+                        <div class="mison-vision-img-container">
+                            <img src="./mission/Vision..png" class="mission-vision-img" alt="Vision">
+                        </div>
+                        <p>To End Structural Inequality towards
+                            the Disadvantaged Population and
+                            Promote Fair, Just & Inclusive Society
+                            for All.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Our Team ***************************-->
+        <section class="container-fluid mentor-background-color">
+            <h1 id="board-memb">Our Mentor</h1>
+            <div class=" row row-cols-1 row-cols-sm-2 row-cols-lg-3 buttons-preview ">
+
+                <div class="col mentor-background">
+                    <img src="./photo/boardmember1.jpeg" class=" modal-pic" data-toggle="modal"
+                        data-target="#modal-one"></img>
+                    <div class="mentor-title">
+                        <h4>[name]</h4>
+
+                    </div>
+                </div>
+
+                <div class="col mentor-background">
+                    <img src="./photo/boardmember2.jpeg" class=" modal-pic" data-toggle="modal"
+                        data-target="#modal-two"></img>
+                    <div class="mentor-title">
+                        <h4>[name]</h4>
+
+                    </div>
+                </div>
+
+                <div class="col mentor-background">
+                    <img src="./photo/boardmember3.jpeg" class=" modal-pic" data-toggle="modal"
+                        data-target="#modal-three"></img>
+                    <div class="mentor-title">
+                        <h4>[name]</h4>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- modal -->
+        <div id="modal-one" class="modal modal-message modal-one fade" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="mentor-content">
+                    <div class="modal-footer">
+                        <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                    </div>
+                    <div class="modal-title">[name]</div>
+                    <div class="modal-body">[Name] is presently serving as the Senior Advisor at [CHRI], with a specific focus on the Access to Justice Programme. [He/She] held the position of Director at [CHRI] for two decades until [Month Year].
+
+                        Additionally, [Name] serves as the Chief Editor of India Justice Report and has gained work experience in India, England, Singapore, and Sri Lanka. [He/She] actively participates on several charitable boards, including the International Women’s Health Coalition, NAMATI, International Record Management Trust, and Public Affairs Centre (PAC) [location]. Notably, [he/she] is a recipient of the Nani Palkiwala Award for [his/her] contributions to the protection and preservation of civil liberties in India.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="modal-two" class="modal modal-message modal-two fade" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="mentor-content">
+                    <div class="modal-footer">
+                        <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                    </div>
+                    <div class="modal-title">[name]</div>
+                    <div class="modal-body">[Name] is a Professor in the Centre for Criminology and Justice, School of Social Work, [University Name], [Location].
+
+                        Prof. [Name] heads Prayas, TANDA, KOSHISH field action projects of [University Acronym] which work on rights and rehabilitation of criminal Justice-affected populations and nomadic tribes. [He/She] has a Master's in Social Work with specialization in Criminology and Correctional Administration and a PhD focused on Social Work and Criminology from [University Acronym]. [He/She] has more than three decades of experience working with youth offenders and legal aid and access to justice for under trial prisoners. [He/She] has also been a part of numerous public interest litigations on under trials and women rescued from commercial sexual exploitation and [has been a] member of various committees appointed by the government and courts to suggest measures to address problems faced by prisoners and under trials. [He/She] has published eight books and has twenty-one articles to [his/her] credit. </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="modal-three" class="modal modal-message modal-three fade" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="mentor-content">
+                    <div class="modal-footer">
+                        <i class="fa-sharp fa-solid fa-xmark cross" data-dismiss="modal"></i>
+                    </div>
+                    <div class="modal-title"> [name]</div>
+                    <div class="modal-body">[Name] is a Professor in the Centre of Social Medicine and Community Health, School of , [University Name], [Location].
+
+                        Prof. [Name] was the first Director of Indian Institute of Dalit Studies, [City] ([Year1]-[Year2]). [He/She] has been a Visiting Fellow at CASS, China; Ball State University, USA; UPPI, Manila, The Philippines; East-West Center, Honolulu, Hawaii; and University of Botswana. [He/She] was awarded an Asian Scholarship Foundation fellowship in 2005. [He/She] has chaired sessions and given keynote addresses in national and international conferences. [He/She] has published extensively in peer-reviewed journals on the issues of health and social exclusion with a focus on youth in development, gender in urban spaces, and North East India. [His/Her] current work is on social discrimination in health care access among cleaners (sanitation workers). [He/She] has published three books and has thirty articles to [his/her] credit
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- map ************* -->
+        <section class="foundation-map">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb="
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+
+        <!--  Media Resource ****************** -->
+        <section class="media-resource">
+            <div class=" media-container">
+                <h1>Media and Resource Center</h1>
+                <div class="media-links-container">
+                    <div class="media-links">
+                        <ul>
+                            <li><a href="./blogs.html">Blog ></a></li>
+                            <li><a href="./annualReports.html">Annual Reports ></a></li>
+                            <li><a href="./storiesOfChanges.html">Stories of Changes ></a></li>
+                        </ul>
+                    </div>
+                    <div class="media-links">
+                        <ul>
+                            <li><a href="./publication.html">Publications ></a></li>
+                            <li><a href="./pressRelease.html">Press Release ></a></li>
+                            <li><a href="./gallery.html">Gallery ></a></li>
+
+                        </ul>
+                    </div>
+                    <div class="media-links">
+                        <!-- <ul>
+                        <li><a href="">Publications ></a></li>
+                        <li><a href="">Press Release ></a></li>
+                        <li><a href="">Print/Online Media ></a></li>
+                    </ul> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ####################### footer ############################### -->
+        <footer>
+            <div class="footer">
+                <div class="footer-info">
+    
+                    <div class="footer-col">
+                        <h5 class="name">[Org name]</h5>
+                        <div class="footer-icon">
+                            <p><i class="fa-sharp fa-solid fa-location-dot"></i> location
+                                <br> location
+                            </p>
+                            <p><i class="fa-solid fa-square-phone"></i></i> [Office]number </p>
+                            <!-- <p id="email"><i class="fa-solid fa-envelope"></i> admin@lawfoundation.org.in</p> -->
+                            <p><i class="fa-solid fa-envelope"></i>
+                                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
+                                    target="_blank" id="email">email</a>
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="footer-col">
+                        <h5 class="address">Follow Us </h5>
+                        <div class="footer-icon1">
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/"
+                                target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://mobile.twitter.com/" target="_blank"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <!-- <a href="www.lawfoundationpatna.org" target="_blank"><i class="fa-solid fa-globe"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    
+        <div class="footer-down">
+            <hr>
+            <div class="footer-down">
+                <p id="right">
+                    ©2020 [org] All rights reserved.
+                </p>
+            </div>
+    
+            <div class="editor">
+                <p>
+                    <i>built with 🧡 by <a class="web-link-color"
+                            href="https://webuildr.framer.ai">We Buildr Wave
+                                </a> & Hosted Freely on <a class="web-link-color"
+                            href="https://github.com/Lily-Sneha/Law-Foundation">Github
+                            Pages</a>
+                    </i>
+                </p>
+            </div>
+        </div>
+    
+        <div class="footer-info-down">
+            <!-- <div class="footer-down">
+                <p id="right">
+                    ©2020 LAW Foundation Patna All rights reserved.</p>
+            </div> -->
+    
+            <!-- Swiper JS link -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+            <!-- JS link -->
+            <script src="index.js"> </script>
+    
+            <!-- bootstrap JS link -->
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+                </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+                </script>
+        </div>
+</body>
+
+</html>
